@@ -1,4 +1,4 @@
-# Sdeno
+# Sdeno ![Deno](https://img.shields.io/badge/Deno-000000?logo=deno&logoColor=white) [![Test](https://github.com/Bellisario/sdeno/actions/workflows/test.yml/badge.svg)](https://github.com/Bellisario/sdeno/actions/workflows/test.yml)
 
 > Sdeno, Steno on Deno\
 > Specialized fast async file writer
