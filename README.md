@@ -1,4 +1,4 @@
-# Sdeno ![Deno](https://img.shields.io/badge/Deno-000000?logo=deno&logoColor=white) [![Test](https://github.com/Bellisario/sdeno/actions/workflows/test.yml/badge.svg)](https://github.com/Bellisario/sdeno/actions/workflows/test.yml)
+# Sdeno ![Deno](https://img.shields.io/badge/Deno-000000?logo=deno&logoColor=white) [![Test](https://github.com/Bellisario/sdeno/actions/workflows/test.yml/badge.svg)](https://github.com/Bellisario/sdeno/actions/workflows/test.yml) ![Dependencies](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fhttps%2Fdeno.land%2Fx%2Fsdeno%40v1.0.0%2Fmod.ts)
 
 > Sdeno, Steno on Deno\
 > Specialized fast async file writer
@@ -14,7 +14,7 @@ This project is a [Deno](https://deno.land) "wrapper" for [Steno](https://github
 Because this is a Deno wrapper, you need to import it from this URL like that:
 
 ```js
-import { Writer } from 'https://deno.land/x/steno/mod.ts';
+import { Writer } from 'https://deno.land/x/sdeno/mod.ts';
 ```
 
 ## Usage
