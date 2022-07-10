@@ -1,0 +1,13 @@
+{
+    "fmt": {
+        "options": {
+            "indentWidth": 4,
+            "proseWrap": "preserve",
+            "singleQuote": true
+        }
+    },
+    "tasks": {
+        "bench": "deno run --allow-env --allow-read --allow-write ./src/benchmark.ts",
+        "test": "deno test --allow-env --allow-read --allow-write ./src/test.ts"
+    }
+}
