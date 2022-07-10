@@ -1,4 +1,4 @@
-  name: Update Dependencies (Udd)
+name: Update Dependencies (Udd)
 
 on:
   workflow_dispatch:
