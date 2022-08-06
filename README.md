@@ -30,11 +30,11 @@ Benchmark results are a little different [from the original project](https://git
 ```
 Write 1KB data to the same file x 1000
   fs     :  462ms
-  steno  :    4ms
+  sdeno  :    4ms
 
 Write 1MB data to the same file x 1000
   fs     : 2551ms
-  steno  :    7ms
+  sdeno  :    7ms
 ```
 
 _Sdeno (as Steno) uses a smart queue and avoids unnecessary writes._
