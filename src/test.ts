@@ -1,10 +1,10 @@
-import { fs, os, path, strictEqual as equal } from '../deps.ts';
+import { mkdtemp, os, path, strictEqual as equal } from '../deps.ts';
 
 import { Writer } from './index.ts';
 
 async function testSdeno(): Promise<void> {
     const max = 1000;
-    const dir = await fs.mkdtemp(path.join(os.tmpdir()!, 'sdeno-test-'));
+    const dir = await mkdtemp(path.join(os.tmpdir()!, 'sdeno-test-'));
     const file = path.join(dir, 'tmp.txt');
 
     const writer = new Writer(file);
