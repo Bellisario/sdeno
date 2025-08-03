@@ -1,5 +1,11 @@
 # Sdeno ![Deno](https://img.shields.io/badge/Deno-000000?logo=deno&logoColor=white) [![Test](https://github.com/Bellisario/sdeno/actions/workflows/test.yml/badge.svg)](https://github.com/Bellisario/sdeno/actions/workflows/test.yml) ![Dependencies](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fhttps%2Fdeno.land%2Fx%2Fsdeno%40v1.0.0%2Fmod.ts)
 
+> [!NOTE]
+> This project is now archived.\
+> Deno introduced support for NPM packages so you can directly use the `steno` package.
+
+---
+
 > Sdeno, Steno on Deno\
 > Specialized fast async file writer
 
